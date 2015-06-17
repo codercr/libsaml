@@ -66,6 +66,10 @@ module Saml
       attribute_statement.fetch_attributes(key)
     end
 
+    def add_namespace_definitions?
+      true
+    end
+
     private
 
     def check_issue_instant

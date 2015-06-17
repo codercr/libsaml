@@ -7,6 +7,7 @@ gemspec
 
 # jquery-rails is used by the dummy application
 gem 'jquery-rails', '>= 3.0.0'
+gem 'nokogiri-happymapper', git: 'https://github.com/codercr/happymapper.git'
 
 group :test, :development do
   gem 'rspec-rails', '~> 3.1'

@@ -144,4 +144,10 @@ describe Saml::Assertion do
       assertion.fetch_attribute('not_present').should == nil
     end
   end
+
+  describe 'add_namespace_definitions?' do
+    it 'returns true' do
+      assertion.add_namespace_definitions?.should == true
+    end
+  end
 end
